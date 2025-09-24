@@ -11,75 +11,19 @@
     --color-lightgray: #b9b9b9;
     --color-search: #3c3c3c;
     --color-banner: #2b2b2b;
+    --color-script: #cdcdcd;
     
-}
-
-.debug{
-    header{
-        /* height: 120px; */
-        /* background-color: brown; */
-        /* border: 1px solid black; */
-    }
-
-    body{
-    
-    }
-
-    main{
-
-        .col-left{
-            border: 1px solid black;
-            background-color: rgb(122, 39, 199);
-        }
-
-        .col-right{
-            border: 1px solid black;
-            background-color: rgb(22, 181, 128);
-        }
-    }
 }
 
 .wrapped{
     height: 100vh;
     overflow: hidden;
-}
-
-.bottom{
-    height: calc(100vh - 120px);
-    width: 100%;
-    display: flex;
-
-    .col-left{
-        height: 100%;
-        width: 70%;
-        overflow-y: auto;
-    }
-    
-    .col-right{
-        height: 100%;
-        width: 30%;
-        /* overflow-y: auto; */
-    }
-}
-
-.container-flex{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    padding: 0.5rem;
-    /* gap: 0.5rem; */
-    
-    .col-album{
-        border: 1px solid black;
-        width: calc(100% / 4);
-        padding: 1rem;
-        background-color: rgb(152, 41, 41);
-    }
+    background-color: var(--color-darkgray);
 }
 
 /* header */
-header{
-   /* height: 0 auto; */
+
+header{  
 }
 
 .top-header{
@@ -101,7 +45,7 @@ header{
 
 .access{
     text-decoration: none;
-    color: white;
+    color: var(--color-script);
     padding-right: 0.5rem;
 }
 
@@ -119,7 +63,89 @@ header{
     }
 }
 
+/* main */
+
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 0.5rem;
+    
+    .col-album{  
+        width: calc(100% / 4);
+        padding: 1rem;
+
+    }
+}
+
+.white{
+    color: var(--color-script);
+}
+
+.alt{
+    color: var(--color-gray);
+}
+
 .ufo{
     background-size: contain;
     width: 100%;
+    border: 1px solid var(--color-gray);
 }
+
+
+.bottom{
+    height: calc(100vh - 120px);
+    width: 100%;
+    display: flex;
+
+    .col-left{
+        height: 100%;
+        width: 70%;
+        overflow-y: auto;
+    }
+    
+    .col-right{
+        height: 100%;
+        width: 30%;
+        overflow-y: auto;
+        padding: 1rem;
+    }
+}
+
+.rec{
+    display: flex;
+    margin-top: 2rem;
+    
+
+    .play{
+        padding: 1rem;
+        background-color: white;
+        border-radius: 50%;
+        height: 1rem;
+        width: 1rem;
+    }
+
+    ul{
+        list-style-type: none;
+        color: var(--color-script);
+        padding-left: 1rem;
+    }
+}
+
+.block{
+    display: block;
+    width: 100%;
+    height: 7%;
+    margin: 1rem 0;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid white;
+    color: var(--color-search);
+
+    .regular{
+        background-color: var(--color-darkgray);
+        border: 1px solid var(--color-script);
+        color: var(--color-script);
+    }
+}
+
