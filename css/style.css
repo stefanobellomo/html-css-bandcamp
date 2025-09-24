@@ -40,9 +40,13 @@ header{
 
 .text{
     padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    color: var(--color-lightgray);
+}
+
+.oculus{
     background-color: var(--color-gray);
-    border: 1px solid var(--color-gray);
-    width: 20rem;
 }
 
 .access{
@@ -54,15 +58,11 @@ header{
 .down-header{
     background-color: var(--color-banner);
     padding: 1rem;
-    
+}
 
-    .search{
-        background-color: var(--color-search);
-        padding: 0.5rem;
-        border: 1px solid var(--color-search);
-        width: 20rem;
-        border-radius: 20px;
-    }
+.well{
+    width: 40%;
+    border-radius: 50px;
 }
 
 /* main */
@@ -73,11 +73,16 @@ header{
     height: 100%;
     padding: 0.5rem;
     
-    .col-album{  
-        width: calc(100% / 4);
-        padding: 1rem;
+}
 
-    }
+.col-album{  
+    width: calc(100% / 4);
+    padding: 1rem;
+    position: relative;
+}
+
+.col-sx{
+    display: flex;
 }
 
 .white{
@@ -93,6 +98,18 @@ header{
     width: 100%;
     border: 1px solid var(--color-gray);
 }
+
+/* .icona{
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    display: none;
+}
+.col-album:hover{
+    .icona{
+        display: block;
+    }
+} */
 
 
 .bottom{
@@ -188,4 +205,5 @@ header{
     border: 1px solid var(--color-script);
     color: var(--color-script);
 }
+
 
