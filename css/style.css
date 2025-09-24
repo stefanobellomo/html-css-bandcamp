@@ -27,6 +27,7 @@
 
 .wrapped{
     height: 100vh;
+    overflow: hidden;
 }
 
 .bottom{
@@ -37,11 +38,13 @@
     .col-left{
         height: 100%;
         width: 70%;
+        overflow-y: auto;
     }
     
     .col-right{
         height: 100%;
         width: 30%;
+        overflow-y: auto;
     }
 }
 
@@ -59,3 +62,5 @@
         background-color: rgb(165, 64, 64);
     }
 }
+
+
