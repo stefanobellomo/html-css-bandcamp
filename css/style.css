@@ -24,9 +24,6 @@
 
 /* header */
 
-header{  
-}
-
 .top-header{
     display: flex;
     justify-content: space-between;
@@ -48,6 +45,10 @@ header{
 
 .oculus{
     background-color: var(--color-gray);
+}
+
+.obscure{
+    display: none;
 }
 
 .access{
@@ -257,5 +258,29 @@ header{
 }
 
 @media screen and (max-width: 600px){
+     .rise{
+        display: none;
+     }
+
+     .well{
+        width: 100%;
+    }
+
+     .obscure{
+        display: inline;
+     }
+
+     .bottom{
+       
+    .col-left{
+        width: 100%;
+        
+    }
+    
+    .col-right{
+        display: none;
+    }
+    }
+
 
 }
