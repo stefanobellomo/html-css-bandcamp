@@ -33,6 +33,7 @@
 
     .logo-site{
         vertical-align: middle;
+        cursor: pointer;
     }  
 }
 
@@ -55,6 +56,13 @@
     text-decoration: none;
     color: var(--color-script);
     padding-right: 0.5rem;
+}
+
+.shadow:hover{
+    padding: 1rem;
+    border-color: white;
+    text-decoration: underline;
+    background: var(--color-gray);
 }
 
 .down-header{
@@ -99,6 +107,10 @@
     background-size: contain;
     width: 100%;
     border: 1px solid var(--color-gray);
+}
+
+.alien{
+    border: none;
 }
 
 .ufo:hover{
@@ -275,6 +287,7 @@
 
      .obscure{
         display: inline;
+        cursor: pointer;
      }
 
     .bottom{
