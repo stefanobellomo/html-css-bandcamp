@@ -133,7 +133,7 @@ header{
 
 .rec{
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
     
 
     .play{
@@ -207,3 +207,54 @@ header{
 }
 
 
+/* RESPONSIVE */
+
+@media screen and (max-width: 744px){
+    .col-album{  
+    width: calc(100% / 2);
+    }
+
+    .rec{
+    margin-top: 0.5rem;
+    
+
+    .play{
+        padding: 1rem;
+        font-size: 1rem;
+     }
+
+    ul{
+        font-size: 0.7rem;
+     }
+    }
+
+    .block{
+        height: 5%;
+        margin: 0.5rem 0;
+        font-size: 0.7rem;
+    }
+
+    .time-relased{
+        padding: 0.5rem 0;
+        font-size: 0.7rem;
+    }
+
+    .larkin{
+        height: 50px;
+        width: 50px;
+    }
+
+    .info-band{
+        font-size: 0.7rem;
+    }
+
+    .follow{  
+        height: 5%;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+}
