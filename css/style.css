@@ -16,6 +16,7 @@
 }
 
 .wrapped{
+    font-family: "inter";
     height: 100vh;
     overflow: hidden;
     background-color: var(--color-darkgray);
