@@ -101,17 +101,24 @@
     border: 1px solid var(--color-gray);
 }
 
-/* .icona{
+.ufo:hover{
+    border: none;
+}
+
+.icona{
     position: absolute;
-    bottom: 2rem;
+    bottom: 6rem;
     left: 2rem;
     display: none;
 }
 .col-album:hover{
     .icona{
+        font-size: 2rem;
         display: block;
+        background-color: white;
+        border-radius: 50%;
     }
-} */
+}
 
 
 .bottom{
@@ -270,17 +277,14 @@
         display: inline;
      }
 
-     .bottom{
+    .bottom{
        
     .col-left{
-        width: 100%;
-        
+        width: 100%;        
     }
     
     .col-right{
         display: none;
     }
     }
-
-
 }
