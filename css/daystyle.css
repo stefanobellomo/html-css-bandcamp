@@ -36,6 +36,8 @@
     .logo-site{
         vertical-align: middle;
         cursor: pointer;
+        height: 33px;
+        width: 33px;
     }  
 }
 
